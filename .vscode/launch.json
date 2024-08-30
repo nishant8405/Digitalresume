@@ -1,0 +1,7 @@
+{
+    "type": "pwa-msedge",
+    "request": "launch",
+    "name": "Launch Edge",
+    "runtimeExecutable": "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge"
+  }
+  

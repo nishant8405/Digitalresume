@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Resume Website...</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header{
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav{
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li{
+      margin: 0 15px;
+    }
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    section{
+      padding: 20px;
+    }
+    h2{
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table,h4,td{
+      border: 1px solid #ddd;
+    }
+    h4,td{
+      padding: 10px;
+      text-align: left;
+    }
+    footer{
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    footer a{
+      text-decoration: none;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nishant Kumar</h1>
+    <img src="Untitled design.png" alt="" width="200" height="200">
+    <p>Web developemt | Designer | Programmer | Frontend Developer</p>
+  </header>
+ 
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Nishant Kumar, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and React.js, and I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>C/C++ & Java(Basic) & PHP</li>
+    <li>HTML5 & CSS3</li>
+    <li>Javascript & React.js</li>
+    <li>Node.js & Express</li>
+    <li>MongoDB & SQL</li>
+    <li>Version Control with Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <table border="1">
+    <tr>
+      <td><h4>Company</h4></td>
+      <td><h4>Role</h4></td>
+      <td><h4>Duration</h4></td>
+      <td><h4>Responsibilities</h4></td>
+    </tr>
+    <tr>
+      <td>Infocbekons Pvt.Ltd.</td>
+      <td>Software Developer Intern</td>
+      <td>Jan 2024 - May 2024</td>
+      <td>Worked on e-commerce projects using MERN stack.</td>
+    </tr>
+    <tr>
+      <td>EDUCATIONAL MENTOR Pvt.Ltd.</td>
+      <td>React.js Intern</td>
+      <td>Oct 2021 - Jan 2023</td>
+      <td>Worked on e-commerce projects using Ract.js stack.</td>
+    </tr>
+    <tr>
+      <td>Omninos Solutions Pvt.Ltd.</td>
+      <td>Java Training  </td>
+      <td>July 2023 - Sep 2023</td>
+      <td>Utilized interactive coding platforms and real-world problem scenarios to enhance learning and engagement among students.</td>
+    </tr>
+    <tr>
+      <td>Panjab University</td>
+      <td>Training and Placement Cell-Memeber </td>
+      <td>April 2024 - Dec 2024</td>
+      <td>Facilitated competitive coding classes for students at Platform Tech Solutions using a hands-on approach to cultivate their problem-solving and critical thinking abilities.</td>
+    </tr>
+  </table>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li>Bachelor of Engineering in Information Technology🎓 <br>
+      Panjab University, 2020-2024</li>
+    <li>Vikesh Vidyala School +2th<br> Center Boad School Examination(C.B.S.E)</li>
+    <li>Vikesh Vidyala School 10th <br>Center Boad School Examination(C.B.S.E)</li>
+  </ul>
+  <p></p>
+</section>
+
+<section id="portfolio">
+  <h2>Project</h2>
+  <img src="Project 1" alt="Project" width="300">
+  <img src="Project 2" alt="Project 2" width="300">
+  <img src="Project 3" alt="project 3" width="300">
+  <img src="Project 4" alt="project 4" width="300">
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter the Full Name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Enter the email id">
+    <br><br>
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" cols="20" rows="3" placeholder="Text the Message "></textarea>
+    <br><br>
+    <input type="button" value="Send">
+    <!-- <br><br> -->
+  </form>
+</section>
+
+<footer>
+  <p>Connect with me on</p>
+  <a href="" target="_blank">linkedin </a>|
+  <a href="" target="_blank">GitHub</a> |
+  <a href="" target="_blank">Leetcode</a>|
+  <a href="" target="_blank">GFG</a>|
+  <a href="" target="_blank">Twitter</a>
+  <p>&#169;2024 Nishant kumar.All rights reserved.</p>
+</footer>
+</body>
+</html>

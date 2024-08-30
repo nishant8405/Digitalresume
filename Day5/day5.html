@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+       form {
+ max-width: 400px; 
+  margin: auto; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="Date"], input[type="Age"], input[type="Gender"],textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <h1>Fire 🔥 Student Regitration From</h1>
+    <form action="url" method="POST">
+       
+        <label for="name">Full Name:</label>
+        <input type="text" name="fullname" id="name" placeholder="Full Name">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="type your email">
+
+        <label for="password">Passworld</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+
+     <label for="date">Date Of Birth:</label>
+     <input type="date" name="date" id="date">
+
+     <label for="age">Age:</label>
+     <input type="number" name="age" id="age" placeholder="type your Age">
+     <br>
+     <br>
+     <label for="gender">Gender:</label>
+
+     <input type="radio" name="gender" id="male">
+     <label for="male">Male</label>
+
+     <input type="radio" name="gender" id="female">
+     <label for="female">Female</label>
+ 
+     <input type="radio" name="gender" id="other">
+     <label for="other">Other</label>
+<br><br>
+     <label for="hobbies">Hobbies:</label>
+     <input type="checkbox" name="hobbies" id="hobbies">
+     <label for="swimming">swimming</label>
+     <input type="checkbox" name="swimming" id="swimming">
+     <label for="dance">dance</label>
+     <input type="checkbox" name="dance" id="dance">
+     <label for="gym">Gym</label>
+     <br><br>
+     <label for="course">Select Course</label>
+     <select name="course" id="course">
+        <option value="1">Java</option>
+        <option value="2">C++</option>
+        <option value="3">C++ DSA course</option>
+        <option value="4">Forntend Deveelopemnt</option>
+     </select>
+     <br> <br>
+
+     <label for="image">Profile Pic:</label>
+     <input type="file" name="image" id="image" accept="image/*">
+     <br><br>
+     <!-- <label for=""></label> -->
+    <textarea name="" id="" cols="30" rows="10" placeholder="Tell about your self"></textarea>
+    <!-- <br><br> -->
+    <input type="submit" value="Register">
+    </form>
+</body>
+</html>
